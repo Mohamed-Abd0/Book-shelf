@@ -48,8 +48,8 @@ function App() {
   return (
     <div className="app">
       <Routes>
-        <Route path="/"       element= {<HomePage  data={catigorizedBooks} onMoveBook={moveBook} />} />
-        <Route path="/search" element={<SearchPage data={catigorizedBooks} onMoveBook={moveBook}/>} />
+        <Route path="/Book-shelf/"       element= {<HomePage  data={catigorizedBooks} onMoveBook={moveBook} />} />
+        <Route path="/Book-shelf/search" element={<SearchPage data={catigorizedBooks} onMoveBook={moveBook}/>} />
       </Routes>
     </div>
   );
