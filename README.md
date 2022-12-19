@@ -44,6 +44,7 @@ Method Signature:
 update(book, shelf);
 ```
 
+
 - book: `<Object>` containing at minimum an `id` attribute
 - shelf: `<String>` contains one of ["wantToRead", "currentlyReading", "read"]
 - Returns a Promise which resolves to a JSON object containing the response data of the POST request
@@ -68,5 +69,10 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md).
 
-## ## Get a coffe with me 
+
+## Live demo
+https://mohamed-abd0.github.io/Book-shelf
+
+
+## Take a coffe with me 
 Linkedin => https://www.linkedin.com/in/mohamed-abd-elfatah
